@@ -1,1 +1,14 @@
 /* Custom styles go here. */
+header.carousel .fill {
+	background-size: 80%;
+	background-repeat: no-repeat;
+}
+.navbar {
+	background-color: yellowgreen;
+}
+.navbar-inverse .navbar-brand {
+	color: navy;
+}
+.navbar-inverse .navbar-nav >li >a {
+	color: navy;
+}
