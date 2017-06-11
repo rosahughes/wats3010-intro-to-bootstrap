@@ -15,12 +15,30 @@ header.carousel .fill {
 div.yard-video {
 	padding: 20px;
 }
+.img-responsive:hover {
+	transform: scale(1.05);
+}
+.img-responsive {
+	transition: all 1s ease 0s;
+	width: 100%;
+}
+.thumbnail {
+	overflow: hidden;
+}
 .fa:hover {
 	opacity: 0.7;
+		transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+	transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
 }
 .fa-facebook {
 	background: #3B5998;
-    color: white;
+  color: white;
 	font-size: 30px;
   width: 50px;
   text-align: center;
@@ -30,8 +48,8 @@ div.yard-video {
 	padding:10px;
 }
 .fa-twitter {
-    background: #55ACEE;
-    color: white;
+  background: #55ACEE;
+  color: white;
 	font-size: 30px;
   width: 50px;
   text-align: center;
